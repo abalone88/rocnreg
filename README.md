@@ -18,7 +18,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`rocnreg` was created by Massimo Wu. It is licensed under the terms of the MIT license.
+`rocnreg` was created by              . It is licensed under the terms of the MIT license.
 
 ## Credits
 
