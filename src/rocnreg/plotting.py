@@ -3,6 +3,8 @@ import pyreadr
 import matplotlib.pyplot as plt
 import numpy as np
 
+# this serves as an example of how to plot the ROC curve
+
 # test
 df = pyreadr.read_r('example_data/diabetes.RData')["diabetes"]
 yh = df.loc[df['status'] == 0, 'marker'].values.ravel()
@@ -37,3 +39,4 @@ def test_bayesian_bootstrap_roc(yh, yd, p=np.linspace(0, 1, num=101), B=5000):
     plt.xlim(0, 1.1)
     plt.legend()
     plt.show()
+
