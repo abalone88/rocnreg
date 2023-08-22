@@ -14,9 +14,9 @@ def cs_roc(marker, group, tag_h, cov_sp, covs, data, p=np.linspace(0, 1, 101)):
     @:param cov_sp  A vector of specific covariates
     @:param covs    A vector of strings of (all) the covariates (column name)
     @:param data    A data frame containing all the variables needed
-    @:param p       A vector of probability default 0.0, 0.1, 0.2, ..., 1.0
+    @:param p       Set of false positive fractions (FPF) at which to estimate the pooled ROC curve default 0.0, 0.1, 0.2, ..., 1.0
 
-    @:return        A list containing the p-values and the corresponding ROC
+    @:return        A list containing the p and the corresponding ROC
     """
 
     def load_data():
