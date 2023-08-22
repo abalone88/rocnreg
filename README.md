@@ -1,6 +1,6 @@
 # rocnreg
 
-Python version of the R package 'ROCnReg' An R Package for Receiver Operating
+Python version of the R package [ROCnReg](https://www.rdocumentation.org/packages/ROCnReg/versions/1.0-8) for ROC Curve Inference with and without Covariates
 
 ## Installation
 
@@ -8,17 +8,13 @@ Python version of the R package 'ROCnReg' An R Package for Receiver Operating
 $ pip install rocnreg
 ```
 
-## Usage
-
-- TODO
-
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
 
 ## License
 
-`rocnreg` was created by              . It is licensed under the terms of the MIT license.
+`rocnreg` is licensed under the terms of the MIT license.
 
 ## Credits
 
